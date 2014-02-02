@@ -3,17 +3,17 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.century21.c21immo"
+        id        = "com.prosb.prosbimmo"
         version   = "3.2.3">
 
-    <name>Century 21</name>
+    <name>ProSB Immobilien</name>
 
     <description>
         Immobilien
     </description>
 
-    <author href="http://www.century21.com/" email="info@century21.com">
-        Century 21
+    <author href="http://www.prosb.de/" email="sven.behrens@prosb.de">
+        ProSB Immobilien
     </author>
 
     <!--
