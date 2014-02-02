@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cebtury 21 - Home</title>
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />	
+	<link href='style.css' type='text/css' rel='stylesheet' media='all'>	
+	<script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+    <script type="text/javascript" charset="utf-8">
+ 
+    // Wait for PhoneGap to load
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+ 
+    // PhoneGap is ready
+    //
+		
+	function onDeviceReady() {
+	document.addEventListener("offline", onOffline, false);
+		
+		function onOffline() {
+		alert('ACHTUNG - es besteht keine Internetverbindung. Diese App benötigt eine Internetverbindung zur einwandfreien Wiedergabe. Es könnten in diesem Fall Störungen auftreten.')
+    }
+	}
+    </script>
+  </head>
+  
+<body bgcolor="#000000" onload="onLoad()">
+
+<table width="100%" align="center" bgcolor="#ffffff" cellpadding="0" cellspacing="0">
+<tr>
+	<td colspan="3" align="center" valign="bottom" bgcolor="ffffff" background="img/head_bg.jpg"><img src="img/head.jpg" width="100%" id="headersize"></td>
+</tr>
+<tr>
+	<td>&nbsp;</td>
+</tr>
+<tr>
+<td colspan="3" align="center"  bgcolor="#ffffff" width="100%">
+<table width="100%" align="center" bgcolor="#ffffff" cellpadding="5" cellspacing="5">
+<tr>
+	<td width="30%" align="center"><a href="immobilien.html"><img src="img/buttons_immobilien.jpg" id="menuebuttons" width="100%"/></a><br><span class="menusize">Immobilien</span></td>
+	<td width="30%" align="center"><a href="ueberuns.html"><img src="img/buttons_ueberuns.jpg" id="menuebuttons" width="100%"></a><br><span class="menusize">&Uuml;ber uns</span></td>
+	<td width="30%" align="center"><a href="tel:+4908007237394"><img src="img/buttons_call.jpg" id="menuebuttons" width="100%"></a><br><span class="menusize">Anrufen</span></td>
+</tr>
+<tr>
+	<td width="30%" align="center"><a href="#" onclick="window.open('https://www.facebook.com/century21de', '_blank', 'location=yes');"><img src="img/buttons_facebook.jpg" id="menuebuttons" width="100%"></a><br><span class="menusize">Facebook</span></td>
+	<td width="30%" align="center"><a href="#" onclick="window.open('https://twitter.com/CENTURY21', '_blank', 'location=yes');"><img src="img/buttons_twitter.jpg" id="menuebuttons" width="100%"/></a><br/><span class="menusize">Twitter</span></td>
+	<td width="30%" align="center"><a href="#" onclick="window.open('http://m.youtube.com/century21', '_blank', 'location=yes');"><img src="img/buttons_video.jpg" id="menuebuttons" width="100%"></a><br><span class="menusize">Videos</span></td>
+</tr>
+<tr>
+	<td width="30%" align="center"><a href="impressum.html"><img src="img/buttons_impressum.jpg" id="menuebuttons" width="100%"></a><br><span class="menusize">Impressum</span></td>
+	<td width="30%" align="center"><a href="#" onclick="window.open('http://files.flipsnack.net/iframehtml5/embed.html?hash=fd1iw5mn&fullscreen=1&pwm=false&startIndex=0&previous_page=true', '_blank', 'location=yes');"><img src="img/buttons_magazin.jpg" id="menuebuttons" width="100%"></a><br><span class="menusize">Magazin</span></td>
+	<td width="30%" align="center"><a href="#"><img src="img/buttons_map.jpg" id="menuebuttons" width="100%"></a><br><span class="menusize">Map</span></td>
+</tr>
+</table></td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+<table width="100%" align="center">
+<tr>
+	<td align="center" valign="top"><span class="menusize"><a href="#" onclick="window.open('http://www.century21.de', '_blank', 'location=yes');"><b>www.century21.de</b></a></span></td>
+</tr>
+</table>
+  </body>
+</html>
