@@ -28,6 +28,16 @@
 	
 }
 
+function onBackKeyDown() { 
+navigator.notification.prompt( 
+'Please enter your Password', // message 
+onPrompt, // callback to invoke 
+'Registration', // title 
+['Ok','Exit'], // buttonLabels 
+'' // defaultText 
+); 
+} 
+
 
     </script>
   </head>
