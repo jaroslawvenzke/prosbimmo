@@ -19,14 +19,16 @@
 	function onDeviceReady() {
 	
 	document.addEventListener("offline", onOffline, false);
+	document.addEventListener("backbutton", onBackKeyDown, false);
+	
+	
 	function onOffline() {
 		alert('ACHTUNG - es besteht keine Internetverbindung. Diese App benötigt eine Internetverbindung zur einwandfreien Wiedergabe. Es könnten in diesem Fall Störungen auftreten.');
     }
 	
-	document.addEventListener("backbutton", onBackKeyDown, false);
+	
 	function onBackKeyDown() {
-		alert('Back works');
-
+		window.open('https://www.facebook.com/ProsbImmobilien');
 	}
 }
     </script>
