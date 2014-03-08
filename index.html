@@ -26,12 +26,11 @@
 		alert('ACHTUNG - es besteht keine Internetverbindung. Diese App benötigt eine Internetverbindung zur einwandfreien Wiedergabe. Es könnten in diesem Fall Störungen auftreten.');
     }
 	
-	
 }
 
 function onBackKeyDown() {
-		history.back();
-		return false;
+		history.go(-1);
+		navigator.app.backHistory();
 	}
     </script>
   </head>
