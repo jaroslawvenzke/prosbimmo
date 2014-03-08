@@ -26,7 +26,8 @@
 	
 
 	function onBackKeyDown() {
-		window.history.back();
+		history.go(-1);
+		navigator.app.backHistory();
 	}
 }
     </script>
