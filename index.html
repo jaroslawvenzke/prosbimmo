@@ -18,11 +18,17 @@
 		
 	function onDeviceReady() {
 	document.addEventListener("offline", onOffline, false);
+	document.addEventListener("backbutton", onBackKeyDown, false);
 		
-		function onOffline() {
+	function onOffline() {
 		alert('ACHTUNG - es besteht keine Internetverbindung. Diese App benötigt eine Internetverbindung zur einwandfreien Wiedergabe. Es könnten in diesem Fall Störungen auftreten.')
     }
+	
+
+	function onBackKeyDown() {
+		window.history.back();
 	}
+}
     </script>
   </head>
   
