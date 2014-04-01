@@ -3,7 +3,7 @@
 		xmlns:gap = "http://phonegap.com/ns/1.0"
 		id        = "com.prosb.prosbimmo"
 		versionCode=""
-		version   = "3.2.4">
+		version   = "3.2.5">
 		<name>ProSB Immobilien</name>
 		<description>
 Sven Behrens		</description>
